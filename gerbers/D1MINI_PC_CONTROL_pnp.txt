@@ -1,0 +1,42 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=D1MINI_PC_CONTROL
+*Date=13:21:53
+*CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498-0-a1ffcea
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;42.2148;-43.1946;0;Bottom;Copper Fill14
+2;;;38.7985;-16.9691;0;Bottom;Copper Fill10
+3;;;42.1894;-17.7946;0;Bottom;Copper Fill8
+4;;;41.3385;-18.6455;0;Bottom;Copper Fill6
+5;;;27.7368;-27.9546;0;Bottom;Copper Fill2
+6;;;36.2585;-16.9691;0;Bottom;Copper Fill4
+7;;;38.7985;-18.6455;0;Bottom;Copper Fill9
+8;;;41.3385;-16.9691;0;Bottom;Copper Fill7
+9;;THT;54.0905;-44.4144;0;Bottom;+RST_SW
+10;;THT;36.3105;-44.4144;0;Bottom;PWR_LED
+11;;;41.3385;-42.3183;0;Bottom;Copper Fill13
+12;;;35.5346;-22.8746;0;Bottom;Copper Fill3
+13;20k;THT;41.3905;-12.6644;90;Bottom;20k
+14;;THT;56.6305;-44.4144;0;Bottom;+PWR_LED
+15;;;53.9877;-42.3183;0;Bottom;Copper Fill15
+16;20k;THT;38.8505;-12.6644;-90;Bottom;20k
+17;;;38.7985;-42.3183;0;Bottom;Copper Fill11
+18;;THT;41.3905;-44.4144;0;Bottom;PWR_SW4
+19;;cpol-radial-10uf-25v;37.5805;-22.8244;0;Bottom;100uF
+20;;THT;38.8505;-44.4144;0;Bottom;RST_SW
+21;;;17.2605;-33.3116;0;Bottom;WeMos D1 Mini
+22;20k;THT;36.3105;-12.6644;-90;Bottom;20k
+23;;;56.5277;-42.3183;0;Bottom;Copper Fill12
+24;;;30.861;-26.5957;0;Bottom;Copper Fill1
+25;;THT;51.5505;-44.4144;0;Bottom;+PWR_SW
+26;;;51.4985;-42.3183;0;Bottom;Copper Fill16
+27;;;35.4076;-17.7946;0;Bottom;Copper Fill5
