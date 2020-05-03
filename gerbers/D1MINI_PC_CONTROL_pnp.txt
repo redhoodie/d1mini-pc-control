@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=D1MINI_PC_CONTROL
-*Date=16:45:24
+*Date=17:04:56
 *CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498-0-a1ffcea
 *
 *
