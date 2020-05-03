@@ -4,7 +4,8 @@ D1 Mini Computer Power/Reset control via motherboard front panel connectors.
 
 'Designed' in [Fritzing](https://fritzing.org/).
 
-<img src="https://github.com/redhoodie/d1mini-pc-control/raw/master/D1MINI_PC_CONTROL_pcb.svg" width="400" alt="PCB">
+<img src="https://github.com/redhoodie/d1mini-pc-control/raw/master/images/fritzing.svg" width="400" alt="PCB">
+<img src="https://github.com/redhoodie/d1mini-pc-control/raw/master/images/preview.svg" width="400" alt="PCB">
 
 
 ## Limitations
