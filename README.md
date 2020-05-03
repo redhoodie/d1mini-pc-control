@@ -10,7 +10,7 @@ D1 Mini Computer Power/Reset control via motherboard front panel connectors.
 ## Limitations
 
 - Untested (Will update once fabricated)
-- I am a novice at this stuff, feel free to improve and pull request.
+- I am a novice at this stuff, feel free to clone/improve/pull request.
 
 
 Similar Projects:
