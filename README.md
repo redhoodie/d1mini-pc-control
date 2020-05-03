@@ -1,4 +1,4 @@
-# Readme
+# D1 mini PC Control
 
 D1 Mini Computer Power/Reset control via motherboard front panel connectors.
 
