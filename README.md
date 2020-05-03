@@ -18,3 +18,6 @@ D1 Mini Computer Power/Reset control via motherboard front panel connectors.
 Similar Projects:
 - https://lerks.blog/turning-a-pc-on-and-off-using-an-esp
 - https://github.com/SilverFire/esp8266-pc-power-control
+
+
+This project is licensed under the terms of the MIT license.
