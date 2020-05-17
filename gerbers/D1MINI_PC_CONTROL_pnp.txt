@@ -4,7 +4,7 @@
 *eMail=
 *
 *Project=D1MINI_PC_CONTROL
-*Date=17:04:56
+*Date=22:23:20
 *CreatedBy=Fritzing 0.9.4.2019-12-01.CD-498-0-a1ffcea
 *
 *
@@ -13,29 +13,43 @@
 *Rotation in degree (0-360, math. pos.)
 *
 *No;Value;Package;X;Y;Rotation;Side;Name
-1;20k;THT;10.1738;-15.2864;-90;Bottom;20k
-2;;THT;12.7138;-52.1164;0;Bottom;PSW
-3;;;12.6873;-19.5773;0;Bottom;Copper Fill7
-4;;;11.7856;-38.2082;0;Bottom;Copper Fill13
-5;;;13.5128;-20.4282;0;Bottom;Copper Fill8
-6;20k;THT;12.7138;-15.2864;-90;Bottom;20k
-7;;cpol-radial-10uf-25v;8.9039;-25.4464;0;Bottom;100uF
-8;;THT;10.1738;-52.1164;0;Bottom;RST
-9;;;46.5582;-12.8082;0;Bottom;Copper Fill2
-10;;;12.6873;-21.2791;0;Bottom;Copper Fill6
-11;;THT;12.7138;-39.4164;0;Bottom;PLED
-12;;;34.3037;-18.1536;0;Bottom;WeMos D1 Mini
-13;;;12.6873;-32.2519;0;Bottom;Copper Fill15
-14;;;10.1473;-50.0319;0;Bottom;Copper Fill12
-15;;THT;12.7138;-34.3364;0;Bottom;PSW
-16;;;10.1473;-21.2791;0;Bottom;Copper Fill9
-17;;;12.6873;-50.0319;0;Bottom;Copper Fill11
-18;;THT;12.7138;-57.1964;0;Bottom;PLED
-19;;;10.1473;-19.5773;0;Bottom;Copper Fill10
-20;;;25.3746;-31.7693;0;Bottom;Copper Fill1
-21;;;11.7856;-55.9882;0;Bottom;Copper Fill3
-22;20k;THT;7.63383;-15.2864;-90;Bottom;20k
-23;;;10.1473;-32.2519;0;Bottom;Copper Fill14
-24;;THT;10.1738;-34.3364;0;Bottom;RST
-25;;;6.7564;-20.4282;0;Bottom;Copper Fill5
-26;;;7.6073;-19.5773;0;Bottom;Copper Fill4
+1;;;21.6908;-34.5294;0;Bottom;Via2
+2;;;21.6281;-3.2652;0;Bottom;Copper Fill12
+3;;;19.939;-32.0561;0;Bottom;Copper Fill13
+4;;;6.3881;-3.2144;0;Bottom;Copper Fill17
+5;;;40.7736;-34.4692;0;Bottom;blkr1
+6;;;19.0881;-37.987;0;Bottom;Copper Fill3
+7;;cpol-radial-100uf-25v;26.7708;-5.31938;-90;Bottom;100uF
+8;;;24.2308;-6.58938;0;Bottom;Via1
+9;;;16.5481;-3.2652;0;Bottom;Copper Fill9
+10;;;3.8481;-3.2144;0;Bottom;Copper Fill14
+11;;;16.5481;-4.967;0;Bottom;Copper Fill8
+12;;THT;5.18079;-33.2594;0;Bottom;Case
+13;;TO92 [THT];16.4203;-36.9805;0;Bottom;2N3904
+14;;;27.305;-20.8928;0;Bottom;Copper Fill1
+15;;;19.939;-37.1361;0;Bottom;Copper Fill4
+16;;;52.9844;-14.2761;0;Bottom;Copper Fill2
+17;;;26.7708;-24.3694;0;Bottom;Via6
+18;20k;THT;21.6908;-9.12937;90;Bottom;20k
+19;20k;THT;16.6108;-9.12937;90;Bottom;20k
+20;;;14.0708;-19.2894;0;Bottom;Via10
+21;;;8.99079;-37.0694;0;Bottom;Via4
+22;;;14.0081;-3.2652;0;Bottom;Copper Fill10
+23;20k;THT;14.0708;-9.12937;90;Bottom;20k
+24;;;3.8481;-28.6144;0;Bottom;Copper Fill18
+25;1k;THT;19.1508;-26.9094;-90;Bottom;1k
+26;20k;THT;19.1508;-9.12937;90;Bottom;20k
+27;15k;THT;16.6108;-26.9094;-90;Bottom;15k
+28;;;1.37079;-34.5294;0;Bottom;Via11
+29;;;40.7404;-19.6166;0;Bottom;WeMos D1 Mini
+30;;;26.7081;-3.3922;0;Bottom;Copper Fill5
+31;;;2.9718;-4.1161;0;Bottom;Copper Fill15
+32;;;6.3881;-28.6144;0;Bottom;Copper Fill19
+33;;;21.6281;-4.967;0;Bottom;Copper Fill11
+34;;;19.0881;-4.967;0;Bottom;Copper Fill6
+35;;THT;5.18079;-7.85937;0;Bottom;Mother
+36;;;26.7708;-14.2094;0;Bottom;Via7
+37;;;26.7708;-16.7494;0;Bottom;Via8
+38;;;26.7708;-19.2894;0;Bottom;Via9
+39;;;2.9718;-9.1961;0;Bottom;Copper Fill16
+40;;;19.0881;-3.2652;0;Bottom;Copper Fill7
