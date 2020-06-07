@@ -7,6 +7,7 @@ void ftp_setup(){}
 
 void ftp_loop() {
   if ((WiFi.status() == WL_CONNECTED) && !ftp_initalized) {
+    Serial.println("Initalizing FTP");
     ftpSrv.begin("esp8266","esp8266");
     ftp_initalized = true;
   }

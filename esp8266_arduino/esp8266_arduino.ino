@@ -7,19 +7,21 @@
 
 #include "arduino_ota.h"
 #include "web.h"
-//#include "fs.h"
-//#include "log.h"
+#include "fs.h"
+#include "log.h"
 #include "control.h"
 #include "serial.h"
+#include "http_update.h"
 //#include "ftp.h"
 
 void setup() {
   serial_setup();
   control_setup();
   web_setup();
-//  fs_setup();
-//  log_setup();
+  fs_setup();
+  log_setup();
 //  ftp_setup();
+  http_update_setup();
 
   serial_setup_final();
 }
@@ -28,6 +30,7 @@ void loop() {
   // -- doLoop should be called as frequently as possible.
   web_loop();
   arduino_ota_loop();
-//  log_loop();
+  log_loop();
 //  ftp_loop();
+  http_update_loop();
 }

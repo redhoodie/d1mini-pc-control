@@ -5,12 +5,12 @@ Ticker keep_alive_action_ticker;
 
 void control_setup() {  
   pinMode(PWR_LED_PIN, INPUT);
-  pinMode(HDD_LED_PIN, INPUT);
+//  pinMode(HDD_LED_PIN, INPUT);
 //  pinMode(PWR_PIN, OUTPUT);
 //  pinMode(RST_PIN, OUTPUT);
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(LED_ENABLE, OUTPUT);
-  digitalWrite(LED_ENABLE, LOW);
+//  pinMode(LED_ENABLE, OUTPUT);
+//  digitalWrite(LED_ENABLE, LOW);
  
 
   keep_alive_action_ticker.attach(1, keep_alive_check);
@@ -27,10 +27,7 @@ void keep_alive_check() {
 }
 
 void update_powered_on() {
-  digitalWrite(LED_ENABLE, HIGH);
-  delay(5);
   bool value = (digitalRead(PWR_LED_PIN) == HIGH);
-  digitalWrite(LED_ENABLE, LOW);
   if (value != is_powered_on) {
     // State changed
     waiting_for_state_change = false;

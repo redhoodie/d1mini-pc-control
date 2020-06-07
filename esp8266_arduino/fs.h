@@ -1,9 +1,8 @@
 #include <FS.h>
-#include <LittleFS.h>
 
-const char* fsName = "LittleFS";
-FS* fileSystem = &LittleFS;
-LittleFSConfig fileSystemConfig = LittleFSConfig();
+const char* fsName = "SPIFFS";
+FS* fileSystem = &SPIFFS;
+SPIFFSConfig fileSystemConfig = SPIFFSConfig();
 
 static bool fsOK;
 String unsupportedFiles = String();

@@ -18,10 +18,6 @@ void update_powered_on();
 // Log
 void log_write(String line);
 
-void log_write(String line) {
-  return;
-}
-
 
 #define ACTION_FEQ_LIMIT 10000
 #define NO_ACTION -1
