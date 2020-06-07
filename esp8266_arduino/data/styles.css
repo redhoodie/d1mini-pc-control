@@ -1,0 +1,9 @@
+
+#log {
+  white-space: pre;
+  max-height: 25vh;
+  overflow-x: scroll;
+  border: 1px solid grey;
+  padding: 1rem;
+  border-radius: 5px;
+}
