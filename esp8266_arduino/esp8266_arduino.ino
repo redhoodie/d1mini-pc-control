@@ -11,7 +11,6 @@
 #include "log.h"
 #include "control.h"
 #include "serial.h"
-//#include "http_update.h"
 //#include "ftp.h"
 
 void setup() {
@@ -21,7 +20,6 @@ void setup() {
   fs_setup();
   log_setup();
 //  ftp_setup();
-//  http_update_setup();
 
   serial_setup_final();
 }
@@ -32,5 +30,4 @@ void loop() {
   arduino_ota_loop();
   log_loop();
 //  ftp_loop();
-//  http_update_loop();
 }
