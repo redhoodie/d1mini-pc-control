@@ -21,10 +21,13 @@ bool is_powered_on = false;
 
 DNSServer dnsServer;
 WebServer server(80);
+HTTPUpdateServer httpUpdater;
 IotWebConf iotWebConf(thingName, &dnsServer, &server, wifiInitialApPassword);
 
 void web_setup() {
   // -- Initializing the configuration.
+  iotWebConf.setStatusPin(STATUS_PIN);
+  iotWebConf.setupUpdateServer(&httpUpdater);
   iotWebConf.init();
 
   // -- Set up required URL handlers on the web server.
@@ -227,7 +230,7 @@ bool isDead() {
 int lastSerialStringSecondsAgo() {
   signed long ago = millis() - lastSerialString;
   float seconds = ago / 1000;
-  return (int)seconds;
+  return (int) seconds;    
 }
 
 void applyAction(unsigned long now)
