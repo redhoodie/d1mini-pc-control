@@ -17,6 +17,7 @@ void arduino_ota_loop() {
     });
     ArduinoOTA.onEnd([]() {
       Serial.println("\nEnd");
+      log_write("ArduinoOTA Uploaded.");
     });
     ArduinoOTA.onProgress([](unsigned int progress, unsigned int total) {
       Serial.printf("Progress: %u%%\r", (progress / (total / 100)));

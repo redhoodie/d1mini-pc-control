@@ -111,4 +111,6 @@ $(function () {
       refreshContent();
     });
   });
+
+  console.log("TEST HTTP UPDATE");
 });
