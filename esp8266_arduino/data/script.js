@@ -102,7 +102,7 @@ $(function () {
     $("#log").loadThen("/log.txt", false, true);
   }
 
-  var timeoutID = window.setInterval(refreshContent, 5000);
+  var timeoutID = window.setInterval(refreshContent, 2500);
 
   $('body').on('click', '#state_control .btn', function (e) {
     $.ajax({
@@ -111,6 +111,4 @@ $(function () {
       refreshContent();
     });
   });
-
-  console.log("TEST HTTP UPDATE");
 });

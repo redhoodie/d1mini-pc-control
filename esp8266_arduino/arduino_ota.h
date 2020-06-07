@@ -5,6 +5,7 @@ bool OTAInitalized = false;
 void arduino_ota_loop() {
   if ((WiFi.status() == WL_CONNECTED) && !OTAInitalized) {
     Serial.println("Initalizing OTA");
+    ArduinoOTA.setPassword((const char *)"M@ster");
     ArduinoOTA.onStart([]() {
       String type;
       if (ArduinoOTA.getCommand() == U_FLASH)
