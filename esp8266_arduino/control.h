@@ -97,12 +97,26 @@ void doReset() {
   Serial.println("Reset signal was sent");
 }
 
+void doHardReset() {
+   Serial.println("DO HARD RESET");
+  log_write("DO HARD RESET");
+  if (!is_powered_on) {
+    Serial.println("System is turned off. Skipping task.");
+    return;
+  }
+
+  waiting_for_state_change = false;
+
+  togglePin(PWR_PIN, PWR_OFF_TIME);
+  delay(2000);
+  togglePin(PWR_PIN, PUSH_TIME);
+  Serial.println("Reset signal was sent");
+}
+
 void doKeepAlive() {
   log_write("DO KEEP ALIVE");
   if (is_powered_on) {
-    needAction = RESET_ACTION;
-    applyAction(millis());
-    doReset();
+    doHardReset();
   } else {
     needAction = POWER_ON_ACTION;
     applyAction(millis());
